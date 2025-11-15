@@ -147,3 +147,11 @@ You can write your own or generate them with a language model.
 If you want to serve your own language model,
 see [this example](https://modal.com/docs/examples/vllm_inference)
 in the Modal docs.
+
+## Technical Documentation
+
+For detailed technical information and refactoring guidance, see:
+
+- **[WAN 2.2 Technical Guide](./docs/WAN_TECHNICAL_GUIDE.md)** - Comprehensive analysis of the WAN 2.2 quantized model repository, including model coverage, quantization strategies, performance benchmarks, and deployment recommendations.
+
+- **[WAN 2.2 Implementation Guide](./docs/IMPLEMENTATION_GUIDE_WAN22_REFACTOR.md)** - Step-by-step refactoring guide for upgrading from Wan2.1-T2V-1.3B to WAN2.2-14B (Rapid-AllInOne-GGUF), including architecture changes, code refactoring phases, model download scripts, and testing strategies.
